@@ -28,11 +28,11 @@ def dividedHistogram():
 	# cv2.destroyAllWindows()
 	# cv2.imwrite("answer2_1.bmp",lenaCopy)
 
-	n, bins, patches = plt.hist(x=histDivided, bins=256)
-	plt.title(r'Histogram')
-	plt.xlim(0,255)
-	plt.savefig("answer2_2.png")
-	plt.show()
+	# n, bins, patches = plt.hist(x=histDivided, bins=256)
+	# plt.title(r'Histogram')
+	# plt.xlim(0,255)
+	# plt.savefig("answer2_2.png")
+	# plt.show()
 
 
 def equalization():
@@ -55,7 +55,7 @@ def equalization():
 		for c in range(columns):
 			temp = lenaCopy[r,c,0]
 			for i in range(3):
-				lenaCopy[r,c,i]= math.floor((cdf[temp] - pmf[temp])/(rows*columns-1)*255)
+				lenaCopy[r,c,i]= math.floor((cdf[temp] - cdfMin)/(rows*columns-cdfMin)*255)
 			histData.append(lenaCopy[r,c,0])
 
 	# cv2.imshow("Image", lenaCopy)
@@ -63,7 +63,7 @@ def equalization():
 	# cv2.destroyAllWindows()
 	cv2.imwrite("answer3_1.bmp",lenaCopy)
 
-	n, bins, patches = plt.hist(x=histData, bins=256, histtype='bar',density=False)
+	n, bins, patches = plt.hist(x=histData, bins=256)
 	plt.title(r'Histogram')
 	plt.xlim(0,255)
 	plt.savefig("answer3_2.png")

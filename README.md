@@ -4,29 +4,29 @@ This repo is for the NTU CSIE computer vision class in 2020 fall.
 
 ## HW1
 Basic Image Manipulation  
-(a) upside-down lena.bmp
-(b) right-side-left lena.bmp
-(c) diagonally flip lena.bmp
-(d) rotate lena.bmp 45 degrees clockwise
-(e) shrink lena.bmp in half
-(f) binarize lena.bmp at 128 to get a binary image
+1. upside-down lena.bmp
+2. right-side-left lena.bmp
+3. diagonally flip lena.bmp
+4. rotate lena.bmp 45 degrees clockwise
+5. shrink lena.bmp in half
+6. binarize lena.bmp at 128 to get a binary image
 
 ## HW2
 Basic Image Manipulation  
-(a) a binary image (threshold at 128)
-(b) a histogram
-(c) connected components(regions with + at centroid, bounding box)
+1. a binary image (threshold at 128)
+2. a histogram
+3. 4-connected components(regions with + at centroid, bounding box)
 
 ## HW3
 Histogram Equalization  
-(a) original image and its histogram
-(b) image with intensity divided by 3 and its histogram
-(c) image after applying histogram equalization to (b) and its histogram
+1. original image and its histogram
+2. image with intensity divided by 3 and its histogram
+3. image after applying histogram equalization to (b) and its histogram
 
 ## HW4
 Mathematical Morphology - Binary Morphology  
-(a) Dilation
-(b) Erosion
-(c) Opening
-(d) Closing
-(e) Hit-and-miss transform
+1. Dilation
+2. Erosion
+3. Opening
+4. Closing
+5. Hit-and-miss transform

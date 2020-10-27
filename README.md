@@ -1,5 +1,5 @@
 # ComputerVisionHW
-Main website of the CV class: http://cv2.csie.ntu.edu.tw/CV/index.html
+Main website of the CV class: http://cv2.csie.ntu.edu.tw/CV/index.html  
 This repo is for the NTU CSIE computer vision class in 2020 fall.
 
 ## HW1
@@ -25,8 +25,11 @@ Histogram Equalization
 
 ## HW4
 Mathematical Morphology - Binary Morphology  
+Use a 3-5-5-5-3 kernel for question 1 to 4.  
 1. Dilation
 2. Erosion
 3. Opening
 4. Closing
-5. Hit-and-miss transform
+5. Hit-and-miss transform (use a 3x3 kernel from textbook)
+
+## HW5

@@ -33,3 +33,20 @@ Use a 3-5-5-5-3 kernel for question 1 to 4.
 5. Hit-and-miss transform (use a 3x3 kernel from textbook)
 
 ## HW5
+Write programs which do gray-scale morphology on a gray-scale image(lena.bmp):  
+1. Dilation
+2. Erosion
+3. Opening
+4. Closing
+Please use the octogonal 3-5-5-5-3 kernel. (which is actually taking the local maxima or local minima respectively).  
+
+## HW6
+Write a program which counts the Yokoi connectivity number on a downsampled image(lena.bmp).  
+Downsampling Lena from 512x512 to 64x64: Binarize the benchmark image lena as in HW2, then using 8x8 blocks as a unit, take the topmost-left pixel as the downsampled data.  
+Count the Yokoi connectivity number on a downsampled lena using 4-connected.  
+Result of this assignment is a 64x64 matrix.  
+
+## HW7
+Write a program which does thinning on a downsampled image (lena.bmp).  
+Downsampling Lena from 512x512 to 64x64: Binarize the benchmark image lena as in HW2, then using 8x8 blocks as a unit, take the topmost-left pixel as the downsampled data.  
+You have to use 4-connected neighborhood detection.  
